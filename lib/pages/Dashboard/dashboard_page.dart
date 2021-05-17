@@ -40,8 +40,8 @@ class _DashboardPageState extends State<DashboardPage> {
                   ),
                 ),
                 currentAccountPicture: CircleAvatar(
-                  backgroundImage: NetworkImage(
-                    "https://media-exp1.licdn.com/dms/image/C4D03AQErsS9-Sz1VEg/profile-displayphoto-shrink_200_200/0/1517449516031?e=1625702400&v=beta&t=SoywsaSea8ju-N5-Ez-8wuzhEQSkqwle-8cQN0p1e24",
+                  backgroundImage: AssetImage(
+                    "assets/images/download.jpeg",
                   ),
                 ),
               ),

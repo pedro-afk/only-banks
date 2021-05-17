@@ -90,7 +90,7 @@ class _LoginPageState extends State<LoginPage> {
               ),
               Container(
                 margin: EdgeInsets.only(top: 40),
-                child: Text("Powered by Fatec Outinhos Students"),
+                child: Text("Powered by Fatec Ourinhos Students"),
               )
             ],
           ),
