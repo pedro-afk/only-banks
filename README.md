@@ -4,4 +4,4 @@ Only banks app.
 
 ## Getting Started
 
-![image-2-png](https://github.com/pedro-afk/only-banks/2.png?raw=true)
+![image-2-png](https://github.com/pedro-afk/only-banks/2.png)
