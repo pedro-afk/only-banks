@@ -4,6 +4,11 @@ Only banks app.
 
 ## Getting Started
 
+## Login
 <img src="2.png" alt="image-2-png" width="300" height="600">
-![image-1-png](1.png)
-![image-3-png](3.png)
+
+## Dashboard
+<img src="1.png" alt="image-2-png" width="300" height="600">
+
+## Menu
+<img src="3.png" alt="image-2-png" width="300" height="600">
