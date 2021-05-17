@@ -41,7 +41,8 @@ class _DashboardPageState extends State<DashboardPage> {
                 ),
                 currentAccountPicture: CircleAvatar(
                   backgroundImage: NetworkImage(
-                      "https://media-exp1.licdn.com/dms/image/C4D03AQErsS9-Sz1VEg/profile-displayphoto-shrink_200_200/0/1517449516031?e=1625702400&v=beta&t=SoywsaSea8ju-N5-Ez-8wuzhEQSkqwle-8cQN0p1e24"),
+                    "https://media-exp1.licdn.com/dms/image/C4D03AQErsS9-Sz1VEg/profile-displayphoto-shrink_200_200/0/1517449516031?e=1625702400&v=beta&t=SoywsaSea8ju-N5-Ez-8wuzhEQSkqwle-8cQN0p1e24",
+                  ),
                 ),
               ),
               ListTile(
@@ -165,6 +166,100 @@ class _DashboardPageState extends State<DashboardPage> {
               ),
             ),
           ),
+          SingleChildScrollView(
+            scrollDirection: Axis.horizontal,
+            child: Container(
+              margin: EdgeInsets.only(left: 20),
+              child: Row(
+                children: [
+                  Card(
+                    elevation: 5,
+                    child: Container(
+                      height: 90,
+                      width: 120,
+                      padding: EdgeInsets.all(8.0),
+                      child: Column(
+                        mainAxisAlignment: MainAxisAlignment.center,
+                        children: [
+                          Icon(Icons.signal_cellular_alt_outlined,
+                              color: Colors.grey, size: 30),
+                          Text(
+                            "Ivestimentos",
+                            style: TextStyle(
+                                color: Color(0xFF303030), fontSize: 16),
+                          )
+                        ],
+                      ),
+                    ),
+                  ),
+                  Card(
+                    elevation: 5,
+                    child: Container(
+                      height: 90,
+                      width: 120,
+                      padding: EdgeInsets.all(8.0),
+                      child: Column(
+                        mainAxisAlignment: MainAxisAlignment.center,
+                        children: [
+                          Image.network(
+                            "https://logospng.org/download/pix/logo-pix-icone-512.png",
+                            height: 33,
+                            width: 33,
+                            color: Colors.grey,
+                          ),
+                          Text(
+                            "Pix",
+                            style: TextStyle(
+                                color: Color(0xFF303030), fontSize: 16),
+                          )
+                        ],
+                      ),
+                    ),
+                  ),
+                  Card(
+                    elevation: 5,
+                    child: Container(
+                      height: 90,
+                      width: 125,
+                      padding: EdgeInsets.all(8.0),
+                      child: Column(
+                        mainAxisAlignment: MainAxisAlignment.center,
+                        children: [
+                          Icon(Icons.import_export_rounded,
+                              color: Colors.grey, size: 30),
+                          Text(
+                            "Transferências",
+                            style: TextStyle(
+                                color: Color(0xFF303030), fontSize: 16),
+                          )
+                        ],
+                      ),
+                    ),
+                  ),
+                  Card(
+                    elevation: 5,
+                    child: Container(
+                      height: 90,
+                      width: 120,
+                      padding: EdgeInsets.all(8.0),
+                      child: Column(
+                        mainAxisAlignment: MainAxisAlignment.center,
+                        children: [
+                          Icon(Icons.monetization_on_rounded,
+                              color: Colors.grey, size: 30),
+                          Text(
+                            "Extrato",
+                            style: TextStyle(
+                                color: Color(0xFF303030), fontSize: 16),
+                          )
+                        ],
+                      ),
+                    ),
+                  ),
+                ],
+              ),
+            ),
+          )
         ],
       ),
     );

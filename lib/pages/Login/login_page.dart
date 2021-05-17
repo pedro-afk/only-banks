@@ -32,7 +32,8 @@ class _LoginPageState extends State<LoginPage> {
             children: [
               Container(
                 margin: EdgeInsets.only(top: 20),
-                child: Image.asset("assets/images/logo.png"),
+                child: Image.asset("assets/images/logo-preta.png",
+                    color: Colors.deepPurple),
               ),
               TextField(
                 keyboardType: TextInputType.emailAddress,
