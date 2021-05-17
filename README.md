@@ -2,8 +2,6 @@
 
 Only banks app.
 
-## Getting Started
-
 ## Login
 <img src="2.png" alt="image-2-png" width="300" height="600">
 
